@@ -8,4 +8,7 @@ require (
 	github.com/onsi/gomega v1.7.0
 )
 
-replace golang.org/x/net => golang.org/x/net v0.23.0
+replace (
+	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20211202192323-5770296d904e
+	golang.org/x/net => golang.org/x/net v0.23.0
+)
