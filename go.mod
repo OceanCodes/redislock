@@ -7,3 +7,5 @@ require (
 	github.com/onsi/ginkgo v1.10.1
 	github.com/onsi/gomega v1.7.0
 )
+
+replace golang.org/x/net => golang.org/x/net v0.23.0
